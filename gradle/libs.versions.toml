@@ -1,0 +1,102 @@
+[versions]
+# Core
+minSdk = "26"
+compileSdk = "34"
+targetSdk = "34"
+jvmTarget = "1.8"
+kotlinCompilerExtension = "1.5.1"
+agp = "8.3.1"
+kotlin = "1.9.0"
+
+# Jetpack
+coreKtx = "1.12.0"
+lifecycle = "2.8.2"
+activityCompose = "1.8.2"
+composeBom = "2024.03.00"
+navigationCompose = "2.7.7"
+room = "2.6.1"
+
+# UI & Theming
+material3 = "1.2.1"
+
+# Mapping
+osmdroid = "6.1.18"
+
+# Charting
+mpandroidchart = "v3.1.0"
+
+# Jalali Calendar
+persianDate = "1.0.3"
+persianDatepicker = "2.3.1"
+
+# Testing
+junit = "4.13.2"
+androidxTestExtJunit = "1.1.5"
+espressoCore = "3.5.1"
+
+# KSP
+ksp = "1.9.0-1.0.13"
+
+# Networking
+ktor = "2.3.4"
+
+# DataStore
+datastore = "1.1.1"
+
+
+[libraries]
+# Core
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+
+# UI
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+
+# Database
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+# Mapping
+osmdroid-android = { group = "org.osmdroid", name = "osmdroid-android", version.ref = "osmdroid" }
+
+# Charting
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+
+# Jalali Calendar
+persian-date = { group = "com.github.samanzamani.persiandate", name = "persiandate", version.ref = "persianDate" }
+persian-datepicker = { group = "com.github.babak-rc", name = "persian-material-datepicker", version.ref = "persianDatepicker" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtJunit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+
+# Networking
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+
+# DataStore
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+[bundles]
+compose = ["ui", "ui-graphics", "ui-tooling-preview", "material3"]
+room = ["room-runtime", "room-ktx"] 
