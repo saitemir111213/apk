@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">مدیر نگهداری شهری</string>
+    <string name="title_daily_report">گزارش روزانه</string>
+    <string name="title_worker_profiles">کارکنان</string>
+    <string name="title_analytics">تحلیل‌ها</string>
+    <string name="title_settings">تنظیمات</string>
+    <string name="title_export">خروجی گزارش</string>
+
+    <string name="workers">کارکنان</string>
+    <string name="select_workers">انتخاب کارکنان</string>
+    <string name="confirm">تایید</string>
+    <string name="manage_groups">مدیریت گروه‌ها</string>
+    <string name="add_group">افزودن گروه</string>
+    <string name="group_name">نام گروه</string>
+    <string name="select_group">انتخاب گروه</string>
+    <string name="groups">گروه‌ها</string>
+    <string name="no_data_available">داده‌ای برای نمایش وجود ندارد</string>
+    <string name="daily_reports_count">تعداد گزارش‌های روزانه</string>
+    <string name="daily_work_hours">ساعات کار روزانه</string>
+    <string name="add_absence">افزودن غیبت</string>
+    <string name="absence_reason">دلیل غیبت</string>
+    <string name="save_absence">ذخیره غیبت</string>
+    <string name="absences">غیبت‌ها</string>
+    <string name="no_absences_recorded">هیچ غیبتی ثبت نشده است.</string>
+    <string name="select_worker_to_manage_absences">برای مدیریت غیبت‌ها یک کارگر را انتخاب کنید:</string>
+    <string name="back">بازگشت</string>
+
+    <string name="theme_settings">تنظیمات پوسته</string>
+    <string name="theme_system">پیروی از سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+
+    <string name="backup_restore">پشتیبان‌گیری و بازیابی</string>
+    <string name="backup_data">پشتیبان‌گیری از داده‌ها</string>
+    <string name="restore_data">بازیابی داده‌ها</string>
+    <string name="backup_successful">پشتیبان‌گیری با موفقیت انجام شد.</string>
+    <string name="backup_failed">پشتیبان‌گیری با شکست مواجه شد.</string>
+    <string name="restore_successful">بازیابی با موفقیت انجام شد. لطفاً برنامه را مجدداً راه‌اندازی کنید.</string>
+    <string name="restore_failed">بازیابی با شکست مواجه شد.</string>
+
+    <string name="generate_report">ایجاد گزارش</string>
+    <string name="filters">فیلترها</string>
+    <string name="date_range">محدوده تاریخ</string>
+    <string name="start_date">تاریخ شروع</string>
+    <string name="end_date">تاریخ پایان</string>
+    <string name="select_groups">انتخاب گروه‌ها</string>
+    <string name="report_generation_successful">گزارش با موفقیت ایجاد شد.</string>
+    <string name="report_generation_failed">ایجاد گزارش با شکست مواجه شد.</string>
+    <string name="share_report">اشتراک‌گذاری گزارش</string>
+
+    <string name="language_settings">تنظیمات زبان</string>
+    <string name="persian">فارسی</string>
+    <string name="english">English</string>
+
+    <string name="no_workers_found">کارگری یافت نشد.</string>
+    <string name="add_worker">افزودن کارگر</string>
+    <string name="call">تماس</string>
+    <string name="sms">پیامک</string>
+    <string name="delete">حذف</string>
+    <string name="delete_worker">حذف کارگر</string>
+    <string name="delete_worker_confirmation">آیا از حذف این کارگر اطمینان دارید؟</string>
+    <string name="date">تاریخ</string>
+    <string name="cancel">لغو</string>
+    <string name="add">افزودن</string>
+    <string name="worker_name">نام کارگر</string>
+    <string name="phone_number">شماره تلفن</string>
+</resources>
